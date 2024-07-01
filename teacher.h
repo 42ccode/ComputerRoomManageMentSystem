@@ -7,6 +7,7 @@
 #include "iostream"
 #include "string"
 #include "orderFile.h"
+#include "vector"
 using namespace std;
 #include "identity.h"
 //教师类
