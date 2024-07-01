@@ -5,6 +5,8 @@
 #ifndef COMPUTERROOM_TEACHER_H
 #define COMPUTERROOM_TEACHER_H
 #include "iostream"
+#include "string"
+#include "orderFile.h"
 using namespace std;
 #include "identity.h"
 //教师类
