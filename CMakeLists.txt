@@ -9,7 +9,9 @@ add_executable(ComputerRoom
         student.cpp
         teacher.cpp
         manager.cpp
-        computerRoom.h)
+        computerRoom.h
+        orderFile.h
+        orderFile.cpp)
 
 # 包含头文件目录
 include_directories(${PROJECT_SOURCE_DIR})

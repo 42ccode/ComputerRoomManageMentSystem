@@ -13,6 +13,7 @@
 using namespace std;
 #include "computerRoom.h"
 #include "identity.h"
+#include "orderFile.h"
 
 //学生类
 class Student : public identity {

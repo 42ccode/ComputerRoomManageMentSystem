@@ -77,6 +77,13 @@ build CMakeFiles/ComputerRoom.dir/manager.cpp.o: CXX_COMPILER__ComputerRoom_unsc
   OBJECT_DIR = CMakeFiles/ComputerRoom.dir
   OBJECT_FILE_DIR = CMakeFiles/ComputerRoom.dir
 
+build CMakeFiles/ComputerRoom.dir/orderFile.cpp.o: CXX_COMPILER__ComputerRoom_unscanned_Debug /Users/mac/Desktop/C++TEST/ComputerRoom/orderFile.cpp || cmake_object_order_depends_target_ComputerRoom
+  DEP_FILE = CMakeFiles/ComputerRoom.dir/orderFile.cpp.o.d
+  FLAGS = -g -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/mac/Desktop/C++TEST/ComputerRoom
+  OBJECT_DIR = CMakeFiles/ComputerRoom.dir
+  OBJECT_FILE_DIR = CMakeFiles/ComputerRoom.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ComputerRoom
@@ -85,7 +92,7 @@ build CMakeFiles/ComputerRoom.dir/manager.cpp.o: CXX_COMPILER__ComputerRoom_unsc
 #############################################
 # Link the executable ComputerRoom
 
-build ComputerRoom: CXX_EXECUTABLE_LINKER__ComputerRoom_Debug CMakeFiles/ComputerRoom.dir/ComputerRoomYuYue.cpp.o CMakeFiles/ComputerRoom.dir/student.cpp.o CMakeFiles/ComputerRoom.dir/teacher.cpp.o CMakeFiles/ComputerRoom.dir/manager.cpp.o
+build ComputerRoom: CXX_EXECUTABLE_LINKER__ComputerRoom_Debug CMakeFiles/ComputerRoom.dir/ComputerRoomYuYue.cpp.o CMakeFiles/ComputerRoom.dir/student.cpp.o CMakeFiles/ComputerRoom.dir/teacher.cpp.o CMakeFiles/ComputerRoom.dir/manager.cpp.o CMakeFiles/ComputerRoom.dir/orderFile.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/ComputerRoom.dir
   POST_BUILD = :
