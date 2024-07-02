@@ -28,6 +28,9 @@ manager.h: 管理员类的声明和实现，包括添加账号、清空预约等
 注意事项
 确保运行环境中包含C++编译器和支持文件操作的运行环境。
 文件路径和权限需要根据实际情况进行设置和调整。
+
+Tips: order.txt student.txt teacher.txt Computerroom.txt admin.txt 需在cmake-build-debug 下建立好
+
 README (English)
 
 Ace Pilot University Reservation System
