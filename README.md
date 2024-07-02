@@ -6,8 +6,11 @@ ips: order.txt student.txt teacher.txt Computerroom.txt admin.txt 需在cmake-bu
 并给student.txt teacher.txt admin.txt  按照初始写入格式:1 admin 123
 在Computerroom.txt 写入电脑室的大小信息
 1 20
+需要换行(但不要空行)
 2 50
+需要换行(但不要空行)
 3 100
+需要换行(但不要空行)
 ok~ play it
 
 
@@ -47,8 +50,11 @@ ips: order.txt student.txt teacher.txt Computerroom.txt admin.txt must be create
 txt is written to student.txt teacher.txt admin. TXT in the initial format :1 admin 123 
 Write the size of the computer room in Computerroom.txt 
 1 20 
+Line feed required (but not blank line)
 2 50 
+Line feed required (but not blank line)
 3 100 
+Line feed required (but not blank line)
 ok~ play it
 
 Ace Pilot University Reservation System
