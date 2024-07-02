@@ -1,5 +1,16 @@
 # ComputerRoomManageMentSystem
 # ComputerRoomManageMentSystem
+
+first!!! 
+ips: order.txt student.txt teacher.txt Computerroom.txt admin.txt 需在cmake-build-debug 下建立
+并给student.txt teacher.txt admin.txt  按照初始写入格式:1 admin 123
+在Computerroom.txt 写入电脑室的大小信息
+1 20
+2 50
+3 100
+ok~ play it
+
+
 王牌飞行员大学预约系统
 这是一个基于C++的简单预约系统，适用于学生、教师和管理员身份。该系统允许学生预约、取消预约，教师审核预约，管理员管理账号和机房信息等功能。
 
@@ -29,9 +40,16 @@ manager.h: 管理员类的声明和实现，包括添加账号、清空预约等
 确保运行环境中包含C++编译器和支持文件操作的运行环境。
 文件路径和权限需要根据实际情况进行设置和调整。
 
-Tips: order.txt student.txt teacher.txt Computerroom.txt admin.txt 需在cmake-build-debug 下建立
 
 README (English)
+
+ips: order.txt student.txt teacher.txt Computerroom.txt admin.txt must be created in cmake-build-debug 
+txt is written to student.txt teacher.txt admin. TXT in the initial format :1 admin 123 
+Write the size of the computer room in Computerroom.txt 
+1 20 
+2 50 
+3 100 
+ok~ play it
 
 Ace Pilot University Reservation System
 This is a simple reservation system based on C++, suitable for students, teachers, and administrators. The system allows students to make reservations, cancel them, teachers to approve reservations, and administrators to manage accounts and room information.
