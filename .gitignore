@@ -1,0 +1,20 @@
+# Ignore project-specific files
+.idea/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+*.cbp
+*.layout
+*.depend
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Ignore build outputs
+bin/
+build/
+dist/
